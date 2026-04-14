@@ -1,4 +1,4 @@
-google-adk==1.17.0
+google-adk==1.28.1
 google-cloud-aiplatform[agent_engines]>=1.112
 vertexai
 google-cloud-bigquery
