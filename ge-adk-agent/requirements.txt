@@ -1,8 +1,0 @@
-google-adk==1.17.0
-google-cloud-aiplatform[agent_engines]>=1.112
-vertexai
-google-cloud-bigquery
-google-cloud-bigquery-storage
-pandas>=2.2.3
-db-dtypes
-pydantic

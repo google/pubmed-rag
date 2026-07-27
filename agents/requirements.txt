@@ -1,0 +1,22 @@
+# Runtime for the PubMed agents.
+# Verified against the pinned floors below on Python 3.12.
+
+# Agent Development Kit. 2.x is a major version ahead of the 1.17 the original
+# ge-adk-agent pinned.
+google-adk>=2.5.0
+
+# Google Gen AI SDK. Replaces vertexai.generative_models, which was deprecated
+# on 2025-06-24 with a documented removal date of 2026-06-24.
+google-genai>=2.14.0
+
+# BigQuery: vector search plus the journal-impact lookup.
+google-cloud-bigquery>=3.42.0
+google-cloud-bigquery-storage>=2.27.0
+db-dtypes>=1.7.0
+pandas>=2.2.3
+pandas-gbq>=0.26.1
+
+pydantic>=2.9
+
+# Only needed by agents/deploy.py for Vertex AI Agent Engine.
+google-cloud-aiplatform[agent_engines]>=1.162.0
